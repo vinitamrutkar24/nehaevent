@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="festival">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Neha Event - Premium Event & Exhibition Rentals. Display stands, digital screens, furniture, venue, and event management." />
+  <title>Neha Event - Premium Event & Exhibition Rentals</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23f97316'/><text x='16' y='22' font-size='16' text-anchor='middle' fill='white'>NE</text></svg>" />
+</head>
+<body>
+
+  <!-- ============================================
+       NAVBAR
+       ============================================ -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="/" class="nav-brand">
+        <div class="brand-icon">NE</div>
+        Neha <span class="gradient-text">Event</span>
+      </a>
+      <div class="nav-center">
+        <a href="#hero" class="active">Home</a>
+        <a href="#catalog">Rates</a>
+        <a href="#about">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="#contact">Contact</a>
+        <div class="theme-switcher mobile-switcher">
+          <button class="theme-btn" data-theme="festival"><span class="tip">Festival</span></button>
+          <button class="theme-btn" data-theme="royal"><span class="tip">Royal</span></button>
+          <button class="theme-btn" data-theme="ocean"><span class="tip">Ocean</span></button>
+          <button class="theme-btn" data-theme="bloom"><span class="tip">Bloom</span></button>
+        </div>
+      </div>
+      <div class="nav-right">
+        <div class="theme-switcher desktop-switcher">
+          <button class="theme-btn" data-theme="festival"><span class="tip">Festival</span></button>
+          <button class="theme-btn" data-theme="royal"><span class="tip">Royal</span></button>
+          <button class="theme-btn" data-theme="ocean"><span class="tip">Ocean</span></button>
+          <button class="theme-btn" data-theme="bloom"><span class="tip">Bloom</span></button>
+        </div>
+        <a href="#contact" class="nav-cta">Book Now</a>
+      </div>
+      <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <!-- ============================================
+       HERO (populated by JS template engine)
+       ============================================ -->
+  <section class="hero" id="hero"></section>
+
+  <!-- ============================================
+       CATEGORIES
+       ============================================ -->
+  <section class="categories section" id="categories">
+    <div class="container">
+      <div class="text-center anim-up">
+        <span class="section-tag"><span class="dot"></span> What We Offer</span>
+        <h2 class="section-title">Browse by <span class="gradient-text">Category</span></h2>
+      </div>
+      <div class="cat-grid">
+        <a href="products.html?cat=display" class="cat-card anim-up">
+          <div class="cat-icon">&#128083;</div>
+          <h4>Display &amp; Stands</h4>
+          <p>Stands, racks, mirrors, mannequins</p>
+        </a>
+        <a href="products.html?cat=electronics" class="cat-card anim-up">
+          <div class="cat-icon">&#128187;</div>
+          <h4>Screens &amp; AV</h4>
+          <p>65" screens, speakers, mics, lights</p>
+        </a>
+        <a href="products.html?cat=furniture" class="cat-card anim-up">
+          <div class="cat-icon">&#128716;</div>
+          <h4>Furniture</h4>
+          <p>Tables, chairs, canopy, carpet</p>
+        </a>
+        <a href="products.html?cat=services" class="cat-card anim-up">
+          <div class="cat-icon">&#127919;</div>
+          <h4>Event Services</h4>
+          <p>Venue, anchor, management</p>
+        </a>
+        <a href="products.html?cat=marketing" class="cat-card anim-up">
+          <div class="cat-icon">&#128200;</div>
+          <h4>Marketing</h4>
+          <p>Digital, advertising, promo</p>
+        </a>
+        <a href="products.html" class="cat-card anim-up">
+          <div class="cat-icon">&#128270;</div>
+          <h4>View All</h4>
+          <p>Complete catalog</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       PRICE CATALOG
+       ============================================ -->
+  <section class="price-catalog section" id="catalog">
+    <div class="container">
+      <div class="text-center anim-up">
+        <span class="section-tag"><span class="dot"></span> Transparent Pricing</span>
+        <h2 class="section-title">Rental <span class="gradient-text">Price Catalog</span></h2>
+        <p style="color:var(--text2);margin-bottom:8px;">Clear daily rates. No hidden charges.</p>
+      </div>
+      <div class="catalog-controls" id="catalogControls"></div>
+      <div class="catalog-grid" id="catalogGrid"></div>
+      <div class="text-center" style="margin-top:32px;">
+        <a href="products.html" class="btn btn-primary">View Full Catalog &#8594;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       ABOUT
+       ============================================ -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual anim-left">
+          <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600&h=450&fit=crop" alt="Event setup" loading="lazy" />
+          <div class="about-sticker">
+            <h2 class="gradient-text">200+</h2>
+            <p>Events Delivered</p>
+          </div>
+        </div>
+        <div class="anim-right">
+          <span class="section-tag"><span class="dot"></span> About</span>
+          <h2 class="section-title">Why <span class="gradient-text">Neha Event</span>?</h2>
+          <p style="color:var(--text2);line-height:1.8;margin-bottom:14px;">Pune-based event rental company specializing in exhibition displays, digital screens, furniture, venue rental, and end-to-end event management. Transparent daily pricing — no surprises.</p>
+          <p style="color:var(--text2);line-height:1.8;margin-bottom:20px;">From a single display stand to a fully managed corporate event, we deliver quality equipment with reliable service.</p>
+          <a href="#contact" class="btn btn-primary">Get in Touch &#8594;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       GALLERY MARQUEE
+       ============================================ -->
+  <section class="gallery-strip">
+    <div class="text-center anim-up" style="margin-bottom:20px;padding:0 24px;">
+      <span class="section-tag"><span class="dot"></span> Our Work</span>
+      <h2 class="section-title">Event <span class="gradient-text">Highlights</span></h2>
+    </div>
+    <div class="gallery-marquee" id="galleryMarquee"></div>
+  </section>
+
+  <!-- ============================================
+       TESTIMONIALS
+       ============================================ -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="text-center anim-up">
+        <span class="section-tag"><span class="dot"></span> Client Say</span>
+        <h2 class="section-title">What Clients <span class="gradient-text">Say</span></h2>
+      </div>
+      <div class="test-grid">
+        <div class="test-card anim-up">
+          <div class="test-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="test-text">"Neha Event provided excellent display stands and digital screens for our trade show. Delivered on time, top quality."</p>
+          <div class="test-author">
+            <div class="test-avatar">R</div>
+            <div class="test-info"><h4>Rahul Mehta</h4><p>Exhibition Organizer</p></div>
+          </div>
+        </div>
+        <div class="test-card anim-up">
+          <div class="test-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="test-text">"From venue setup to AV equipment, everything was seamless. Professional team, responsive service."</p>
+          <div class="test-author">
+            <div class="test-avatar">S</div>
+            <div class="test-info"><h4>Priya Sharma</h4><p>Corporate Event Manager</p></div>
+          </div>
+        </div>
+        <div class="test-card anim-up">
+          <div class="test-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="test-text">"Transparent daily pricing brought us in. Quality service keeps us coming back. Great products at honest rates."</p>
+          <div class="test-author">
+            <div class="test-avatar">A</div>
+            <div class="test-info"><h4>Ananya Patel</h4><p>Brand Manager</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CTA
+       ============================================ -->
+  <section class="cta-banner">
+    <div class="container anim-up">
+      <h2>Ready to <span class="gradient-text">Plan Your Event</span>?</h2>
+      <p>Get a free quote within 24 hours. No obligation, just clear pricing.</p>
+      <a href="#contact" class="btn btn-primary">Get Free Quote &#8594;</a>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CONTACT
+       ============================================ -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="text-center anim-up">
+        <span class="section-tag"><span class="dot"></span> Get In Touch</span>
+        <h2 class="section-title">Contact <span class="gradient-text">Us</span></h2>
+        <p style="color:var(--text2);margin-bottom:8px;">Send your requirements for a free quote</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-cards anim-left">
+          <div class="contact-card">
+            <div class="ic">&#128205;</div>
+            <div><h4>Address</h4><p>Pune, Maharashtra 411001</p></div>
+          </div>
+          <div class="contact-card">
+            <div class="ic">&#128222;</div>
+            <div><h4>Call / WhatsApp</h4><p>+91 98765 43210</p></div>
+          </div>
+          <div class="contact-card">
+            <div class="ic">&#9993;</div>
+            <div><h4>Email</h4><p>info@nehaevent.com</p></div>
+          </div>
+          <div class="contact-card">
+            <div class="ic">&#128338;</div>
+            <div><h4>Hours</h4><p>Mon–Sat: 9AM–8PM</p></div>
+          </div>
+        </div>
+        <div class="contact-form-box anim-right">
+          <form action="https://formspree.io/f/yourFormID" method="POST">
+            <div class="form-fields">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Name *</label>
+                  <input type="text" id="name" name="name" placeholder="Your name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email *</label>
+                  <input type="email" id="email" name="email" placeholder="Your email" required />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone">Phone</label>
+                  <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" />
+                </div>
+                <div class="form-group">
+                  <label for="service">Interested In</label>
+                  <select id="service" name="service">
+                    <option value="">Select...</option>
+                    <option value="stand">Display Stands &amp; Racks</option>
+                    <option value="screen">Digital Screens &amp; AV</option>
+                    <option value="furniture">Furniture &amp; Setup</option>
+                    <option value="venue">Venue on Rent</option>
+                    <option value="event">Event Management</option>
+                    <option value="marketing">Marketing &amp; Promotion</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message">Requirements *</label>
+                <textarea id="message" name="message" placeholder="Tell us about your event, products needed, dates..." required></textarea>
+              </div>
+              <button type="submit" class="form-submit">Send Enquiry &#8594;</button>
+            </div>
+            <div class="form-success">
+              <div class="ic">&#10004;</div>
+              <h3>Thank You!</h3>
+              <p>We'll get back to you within 24 hours.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="nav-brand">
+            <div class="brand-icon">NE</div>
+            Neha <span class="gradient-text">Event</span>
+          </a>
+          <p>Your trusted partner for event rentals, exhibition displays, and event management in Pune.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">ig</a>
+            <a href="#" aria-label="YouTube">yt</a>
+            <a href="#" aria-label="WhatsApp">wa</a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="#catalog">Rates</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Categories</h4>
+          <ul class="footer-links">
+            <li><a href="products.html?cat=display">Display &amp; Stands</a></li>
+            <li><a href="products.html?cat=electronics">Screens &amp; AV</a></li>
+            <li><a href="products.html?cat=furniture">Furniture</a></li>
+            <li><a href="products.html?cat=services">Event Services</a></li>
+            <li><a href="products.html?cat=marketing">Marketing</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+            <li><a href="mailto:info@nehaevent.com">info@nehaevent.com</a></li>
+            <li><a>Pune, Maharashtra</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Neha Event. All rights reserved.</p>
+        <p>Made with &#9829; for unforgettable events</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" role="dialog" aria-label="Image lightbox">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <div class="lightbox-nav">
+      <button class="lightbox-prev" aria-label="Previous">&#8249;</button>
+      <button class="lightbox-next" aria-label="Next">&#8250;</button>
+    </div>
+    <img src="" alt="" />
+  </div>
+
+  <script src="js/script.js"></script>
+  <script>
+    // ----- Catalog Data -----
+    const catProducts = [
+      { name:"Stand", cat:"display", rate:"INR 400", label:"/ Day", badge:"in-stock" },
+      { name:"Golden Stand", cat:"display", rate:"INR 500", label:"/ Day", badge:"in-stock" },
+      { name:"Racks", cat:"display", rate:"INR 500", label:"/ Day", badge:"in-stock" },
+      { name:"Mirror", cat:"display", rate:"INR 500", label:"/ Day", badge:"in-stock" },
+      { name:"Mannequin", cat:"display", rate:"INR 400", label:"/ Day", badge:"in-stock" },
+      { name:"Hangers", cat:"display", rate:"INR 5", label:"/ Pc / Day", badge:"in-stock" },
+      { name:"Jhali Only", cat:"display", rate:"INR 200", label:"/ Day", badge:"in-stock" },
+      { name:"Jhali With Stand", cat:"display", rate:"INR 500", label:"/ Day", badge:"in-stock" },
+      { name:"Digital Screen 65\"", cat:"electronics", rate:"INR 3,000", label:"/ Day", badge:"in-stock" },
+      { name:"Lights", cat:"electronics", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Fans", cat:"electronics", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Speakers", cat:"electronics", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Mics", cat:"electronics", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Tables", cat:"furniture", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Chairs", cat:"furniture", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Octonorm", cat:"furniture", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Canopy", cat:"furniture", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Carpet", cat:"furniture", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Queue Manager", cat:"services", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Anchor", cat:"services", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Venue On Rent", cat:"services", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Corporate Events", cat:"services", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Family Events", cat:"services", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Digital Marketing", cat:"marketing", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Advertising", cat:"marketing", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Promotional Activity", cat:"marketing", rate:"On Request", label:"", badge:"on-req" },
+    ];
+    const catLabels = { all:"All", display:"Display & Stands", electronics:"Screens & AV", furniture:"Furniture", services:"Event Services", marketing:"Marketing" };
+    const catIcons = { display:"&#128083;", electronics:"&#128187;", furniture:"&#128716;", services:"&#127919;", marketing:"&#128200;" };
+
+    const controls = document.getElementById('catalogControls');
+    const grid = document.getElementById('catalogGrid');
+
+    Object.entries(catLabels).forEach(([k,v]) => {
+      const btn = document.createElement('button');
+      btn.className = 'catalog-btn' + (k==='all'?' active':'');
+      btn.textContent = v;
+      btn.onclick = () => renderCatalog(k);
+      controls.appendChild(btn);
+    });
+
+    function renderCatalog(cat) {
+      document.querySelectorAll('.catalog-btn').forEach(b => b.classList.remove('active'));
+      controls.children[Object.keys(catLabels).indexOf(cat)].classList.add('active');
+      const items = cat==='all' ? catProducts : catProducts.filter(p => p.cat === cat);
+      grid.innerHTML = items.map(p => `
+        <div class="catalog-item anim-up">
+          <div class="catalog-thumb">${catIcons[p.cat]||'&#128230;'}</div>
+          <div class="catalog-info">
+            <h4>${p.name}</h4>
+            <p>${catLabels[p.cat]}</p>
+          </div>
+          <div class="catalog-rate">
+            <span class="price">${p.rate}</span>
+            <span class="catalog-badge ${p.badge}">${p.badge==='in-stock'?'In Stock':'On Request'}</span>
+          </div>
+        </div>
+      `).join('');
+      grid.querySelectorAll('.anim-up').forEach(el => observer.observe(el));
+    }
+    renderCatalog('all');
+
+    // ----- Gallery Marquee -----
+    const marquee = document.getElementById('galleryMarquee');
+    const galleryImgs = [
+      "https://images.unsplash.com/photo-1519741497674-611481863552?w=260&h=180&fit=crop",
+      "https://images.unsplash.com/photo-1508154049037-1d2745a66ae6?w=260&h=180&fit=crop",
+      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=260&h=180&fit=crop",
+      "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=260&h=180&fit=crop",
+      "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=260&h=180&fit=crop",
+      "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=260&h=180&fit=crop",
+    ];
+    const names = ["Wedding Setup","Stage Design","Corporate Event","Lighting","Grand Reception","Concert"];
+    const items = [...galleryImgs,...galleryImgs].map((src,i) => `
+      <div class="gallery-marquee-item" data-lightbox>
+        <img src="${src}" alt="${names[i%names.length]}" loading="lazy" />
+        <div class="overlay"><span>${names[i%names.length]}</span></div>
+      </div>
+    `).join('');
+    marquee.innerHTML = items;
+  </script>
+</body>
+</html>

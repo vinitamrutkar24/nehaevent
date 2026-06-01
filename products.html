@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="festival">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Browse our complete rental catalog with transparent daily rates." />
+  <title>Products - Neha Event</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23f97316'/><text x='16' y='22' font-size='16' text-anchor='middle' fill='white'>NE</text></svg>" />
+  <style>
+    .full-catalog .catalog-controls { margin-top:0; }
+    .full-catalog .catalog-grid { grid-template-columns: repeat(auto-fill, minmax(320px,1fr)); }
+    @media (max-width:480px) { .full-catalog .catalog-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-brand"><div class="brand-icon">NE</div> Neha <span class="gradient-text">Event</span></a>
+      <div class="nav-center">
+        <a href="index.html">Home</a>
+        <a href="index.html#catalog">Rates</a>
+        <a href="index.html#about">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <div class="theme-switcher mobile-switcher">
+          <button class="theme-btn" data-theme="festival"><span class="tip">Festival</span></button>
+          <button class="theme-btn" data-theme="royal"><span class="tip">Royal</span></button>
+          <button class="theme-btn" data-theme="ocean"><span class="tip">Ocean</span></button>
+          <button class="theme-btn" data-theme="bloom"><span class="tip">Bloom</span></button>
+        </div>
+      </div>
+      <div class="nav-right">
+        <div class="theme-switcher desktop-switcher">
+          <button class="theme-btn" data-theme="festival"><span class="tip">Festival</span></button>
+          <button class="theme-btn" data-theme="royal"><span class="tip">Royal</span></button>
+          <button class="theme-btn" data-theme="ocean"><span class="tip">Ocean</span></button>
+          <button class="theme-btn" data-theme="bloom"><span class="tip">Bloom</span></button>
+        </div>
+        <a href="contact.html" class="nav-cta">Book Now</a>
+      </div>
+      <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-tag"><span class="dot"></span> Full Catalog</span>
+      <h1>Complete <span class="gradient-text">Product Catalog</span></h1>
+      <p style="color:var(--text2);margin-top:12px;font-size:1.05rem;">Browse all items with transparent daily rates. Ready for your next event.</p>
+    </div>
+  </section>
+
+  <section class="price-catalog section full-catalog" style="padding-top:20px;">
+    <div class="container">
+      <div class="catalog-controls" id="catControls"></div>
+      <div class="catalog-grid" id="catGrid"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-brand"><div class="brand-icon">NE</div> Neha <span class="gradient-text">Event</span></a>
+          <p>Your trusted partner for event rentals, exhibition displays, and event management services in Pune.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">ig</a>
+            <a href="#" aria-label="YouTube">yt</a>
+            <a href="#" aria-label="WhatsApp">wa</a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#catalog">Rates</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Categories</h4>
+          <ul class="footer-links">
+            <li><a href="?cat=display">Display &amp; Stands</a></li>
+            <li><a href="?cat=electronics">Screens &amp; AV</a></li>
+            <li><a href="?cat=furniture">Furniture</a></li>
+            <li><a href="?cat=services">Event Services</a></li>
+            <li><a href="?cat=marketing">Marketing</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+            <li><a href="mailto:info@nehaevent.com">info@nehaevent.com</a></li>
+            <li><a>Pune, Maharashtra</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Neha Event. All rights reserved.</p>
+        <p>Made with &#9829; for unforgettable events</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+    const allProducts = [
+      { name:"Stand", cat:"display", rate:"INR 400", label:"/ Day", badge:"in-stock" },
+      { name:"Golden Stand", cat:"display", rate:"INR 500", label:"/ Day", badge:"in-stock" },
+      { name:"Racks", cat:"display", rate:"INR 500", label:"/ Day", badge:"in-stock" },
+      { name:"Mirror", cat:"display", rate:"INR 500", label:"/ Day", badge:"in-stock" },
+      { name:"Mannequin", cat:"display", rate:"INR 400", label:"/ Day", badge:"in-stock" },
+      { name:"Hangers", cat:"display", rate:"INR 5", label:"/ Pc / Day", badge:"in-stock" },
+      { name:"Jhali Only", cat:"display", rate:"INR 200", label:"/ Day", badge:"in-stock" },
+      { name:"Jhali With Stand", cat:"display", rate:"INR 500", label:"/ Day", badge:"in-stock" },
+      { name:"Digital Screen 65\"", cat:"electronics", rate:"INR 3,000", label:"/ Day", badge:"in-stock" },
+      { name:"Lights", cat:"electronics", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Fans", cat:"electronics", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Speakers", cat:"electronics", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Mics", cat:"electronics", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Tables", cat:"furniture", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Chairs", cat:"furniture", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Octonorm", cat:"furniture", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Canopy", cat:"furniture", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Carpet", cat:"furniture", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Queue Manager", cat:"services", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Anchor", cat:"services", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Venue On Rent", cat:"services", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Corporate Events", cat:"services", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Family Events", cat:"services", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Digital Marketing", cat:"marketing", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Advertising", cat:"marketing", rate:"On Request", label:"", badge:"on-req" },
+      { name:"Promotional Activity", cat:"marketing", rate:"On Request", label:"", badge:"on-req" },
+    ];
+    const catL = { all:"All", display:"Display & Stands", electronics:"Screens & AV", furniture:"Furniture", services:"Event Services", marketing:"Marketing" };
+    const catI = { display:"&#128083;", electronics:"&#128187;", furniture:"&#128716;", services:"&#127919;", marketing:"&#128200;" };
+
+    const ctrl = document.getElementById('catControls');
+    const g = document.getElementById('catGrid');
+    const urlCat = new URLSearchParams(window.location.search).get('cat') || 'all';
+
+    Object.entries(catL).forEach(([k,v]) => {
+      const b = document.createElement('button');
+      b.className = 'catalog-btn' + (k===urlCat?' active':'');
+      b.textContent = v;
+      b.onclick = () => render(k);
+      ctrl.appendChild(b);
+    });
+
+    function render(cat) {
+      document.querySelectorAll('.catalog-btn').forEach(b => b.classList.remove('active'));
+      ctrl.children[Object.keys(catL).indexOf(cat)].classList.add('active');
+      const items = cat==='all' ? allProducts : allProducts.filter(p => p.cat === cat);
+      g.innerHTML = items.map(p => `
+        <div class="catalog-item anim-up show">
+          <div class="catalog-thumb">${catI[p.cat]||'&#128230;'}</div>
+          <div class="catalog-info">
+            <h4>${p.name}</h4>
+            <p>${catL[p.cat]}</p>
+          </div>
+          <div class="catalog-rate">
+            <span class="price">${p.rate}</span>
+            <span class="label">${p.label}</span>
+            <span class="catalog-badge ${p.badge}">${p.badge==='in-stock'?'In Stock':'On Request'}</span>
+          </div>
+        </div>
+      `).join('');
+    }
+    render(urlCat);
+  </script>
+</body>
+</html>

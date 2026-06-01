@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="festival">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Neha Event for enquiries, quotes, and bookings." />
+  <title>Contact - Neha Event</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23f97316'/><text x='16' y='22' font-size='16' text-anchor='middle' fill='white'>NE</text></svg>" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-brand"><div class="brand-icon">NE</div> Neha <span class="gradient-text">Event</span></a>
+      <div class="nav-center">
+        <a href="index.html">Home</a>
+        <a href="index.html#catalog">Rates</a>
+        <a href="index.html#about">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" class="active">Contact</a>
+        <div class="theme-switcher mobile-switcher">
+          <button class="theme-btn" data-theme="festival"><span class="tip">Festival</span></button>
+          <button class="theme-btn" data-theme="royal"><span class="tip">Royal</span></button>
+          <button class="theme-btn" data-theme="ocean"><span class="tip">Ocean</span></button>
+          <button class="theme-btn" data-theme="bloom"><span class="tip">Bloom</span></button>
+        </div>
+      </div>
+      <div class="nav-right">
+        <div class="theme-switcher desktop-switcher">
+          <button class="theme-btn" data-theme="festival"><span class="tip">Festival</span></button>
+          <button class="theme-btn" data-theme="royal"><span class="tip">Royal</span></button>
+          <button class="theme-btn" data-theme="ocean"><span class="tip">Ocean</span></button>
+          <button class="theme-btn" data-theme="bloom"><span class="tip">Bloom</span></button>
+        </div>
+        <a href="#contact-form" class="nav-cta">Book Now</a>
+      </div>
+      <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <section class="page-hero" id="contact-form">
+    <div class="container">
+      <span class="section-tag"><span class="dot"></span> Get In Touch</span>
+      <h1>Contact <span class="gradient-text">Neha Event</span></h1>
+      <p style="color:var(--text2);margin-top:12px;font-size:1.05rem;">Ready to plan your event? Send us your requirements for a free quote.</p>
+    </div>
+  </section>
+
+  <section class="contact section" style="padding-top:20px;">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-cards anim-left">
+          <div class="contact-card">
+            <div class="ic">&#128205;</div>
+            <div>
+              <h4>Our Address</h4>
+              <p>123, Event Avenue,<br/>Pune, Maharashtra 411001</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="ic">&#128222;</div>
+            <div>
+              <h4>Call / WhatsApp</h4>
+              <p>+91 98765 43210</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="ic">&#9993;</div>
+            <div>
+              <h4>Email</h4>
+              <p>info@nehaevent.com</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="ic">&#128338;</div>
+            <div>
+              <h4>Working Hours</h4>
+              <p>Mon–Sat: 9:00 AM – 8:00 PM<br/>Sunday: By Appointment</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-box anim-right" style="margin-top:0;">
+          <form action="https://formspree.io/f/yourFormID" method="POST">
+            <div class="form-fields">
+              <h3 style="font-family:var(--font-display);margin-bottom:20px;font-size:1.2rem;">Send us a Message</h3>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Your Name *</label>
+                  <input type="text" id="name" name="name" placeholder="e.g. Rahul Mehta" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email *</label>
+                  <input type="email" id="email" name="email" placeholder="rahul@example.com" required />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone">Phone</label>
+                  <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" />
+                </div>
+                <div class="form-group">
+                  <label for="service">I'm Interested In</label>
+                  <select id="service" name="service">
+                    <option value="">Select...</option>
+                    <option value="stand">Display Stands &amp; Racks</option>
+                    <option value="screen">Digital Screens &amp; AV</option>
+                    <option value="furniture">Furniture &amp; Setup</option>
+                    <option value="venue">Venue on Rent</option>
+                    <option value="event">Event Management</option>
+                    <option value="marketing">Marketing &amp; Promotion</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message">Your Requirements *</label>
+                <textarea id="message" name="message" placeholder="Tell us about your event: type, date, products needed, quantity, delivery location..." required></textarea>
+              </div>
+              <button type="submit" class="form-submit">Send Enquiry &#8594;</button>
+            </div>
+            <div class="form-success">
+              <div class="ic">&#10004;</div>
+              <h3>Thank You!</h3>
+              <p>Your enquiry has been sent. We'll get back to you within 24 hours.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-brand"><div class="brand-icon">NE</div> Neha <span class="gradient-text">Event</span></a>
+          <p>Your trusted partner for event rentals, exhibition displays, and event management services in Pune.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">ig</a>
+            <a href="#" aria-label="YouTube">yt</a>
+            <a href="#" aria-label="WhatsApp">wa</a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="products.html">Rates</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Categories</h4>
+          <ul class="footer-links">
+            <li><a href="products.html?cat=display">Display &amp; Stands</a></li>
+            <li><a href="products.html?cat=electronics">Screens &amp; AV</a></li>
+            <li><a href="products.html?cat=furniture">Furniture</a></li>
+            <li><a href="products.html?cat=services">Event Services</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+            <li><a href="mailto:info@nehaevent.com">info@nehaevent.com</a></li>
+            <li><a>Pune, Maharashtra</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Neha Event. All rights reserved.</p>
+        <p>Made with &#9829; for unforgettable events</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
