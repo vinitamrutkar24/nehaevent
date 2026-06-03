@@ -1,30 +1,93 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="festival">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Photo gallery showcasing events and equipment from Neha Event." />
   <title>Gallery - Neha Event</title>
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23f97316'/><text x='16' y='22' font-size='16' text-anchor='middle' fill='white'>NE</text></svg>" />
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23f97316'/><text x='16' y='22' font-size='16' text-anchor='middle' fill='white'>NE</text></svg>" />
   <style>
-    .gallery-page { background: var(--bg); }
-    .gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px,1fr)); gap: 16px; margin-top: 40px; }
-    .gallery-item { position: relative; border-radius: var(--radius); overflow: hidden; cursor: pointer; aspect-ratio: 4/3; }
-    .gallery-item:nth-child(3n+1) { grid-row: span 2; aspect-ratio: auto; }
-    .gallery-item img { width:100%; height:100%; object-fit:cover; transition: transform .6s; }
-    .gallery-item:hover img { transform: scale(1.08); }
-    .gallery-item .overlay { position:absolute; inset:0; background:linear-gradient(to top,rgba(0,0,0,.8),transparent); display:flex; flex-direction:column; justify-content:flex-end; padding:20px; opacity:0; transition:opacity .3s; }
-    .gallery-item:hover .overlay { opacity:1; }
-    .gallery-item .overlay h4 { color:#fff; font-size:1rem; font-weight:600; }
-    .gallery-item .overlay p { color:rgba(255,255,255,.7); font-size:.8rem; margin-top:4px; }
-    @media (max-width:768px) { .gallery-item:nth-child(3n+1) { grid-row:auto; aspect-ratio:4/3; } }
+    .gallery-page {
+      background: var(--bg);
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+      margin-top: 40px;
+    }
+
+    .gallery-item {
+      position: relative;
+      border-radius: var(--radius);
+      overflow: hidden;
+      cursor: pointer;
+      aspect-ratio: 4/3;
+    }
+
+    .gallery-item:nth-child(3n+1) {
+      grid-row: span 2;
+      aspect-ratio: auto;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .6s;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.08);
+    }
+
+    .gallery-item .overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0, 0, 0, .8), transparent);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 20px;
+      opacity: 0;
+      transition: opacity .3s;
+    }
+
+    .gallery-item:hover .overlay {
+      opacity: 1;
+    }
+
+    .gallery-item .overlay h4 {
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .gallery-item .overlay p {
+      color: rgba(255, 255, 255, .7);
+      font-size: .8rem;
+      margin-top: 4px;
+    }
+
+    @media (max-width:768px) {
+      .gallery-item:nth-child(3n+1) {
+        grid-row: auto;
+        aspect-ratio: 4/3;
+      }
+    }
   </style>
 </head>
+
 <body>
   <nav class="navbar">
     <div class="container">
-      <a href="index.html" class="nav-brand"><div class="brand-icon">NE</div> Neha <span class="gradient-text">Event</span></a>
+      <a href="index.html" class="nav-brand">
+        <div class="brand-icon">NE</div> Neha <span class="gradient-text">Event</span>
+      </a>
       <div class="nav-center">
         <a href="index.html">Home</a>
         <a href="index.html#catalog">Rates</a>
@@ -55,7 +118,8 @@
     <div class="container">
       <span class="section-tag"><span class="dot"></span> Our Work</span>
       <h1>Photo <span class="gradient-text">Gallery</span></h1>
-      <p style="color:var(--text2);margin-top:12px;font-size:1.05rem;">A visual journey through the events we've helped create</p>
+      <p style="color:var(--text2);margin-top:12px;font-size:1.05rem;">A visual journey through the events we've helped
+        create</p>
     </div>
   </section>
 
@@ -79,7 +143,9 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="index.html" class="nav-brand"><div class="brand-icon">NE</div> Neha <span class="gradient-text">Event</span></a>
+          <a href="index.html" class="nav-brand">
+            <div class="brand-icon">NE</div> Neha <span class="gradient-text">Event</span>
+          </a>
           <p>Your trusted partner for event rentals, exhibition displays, and event management services in Pune.</p>
           <div class="footer-social">
             <a href="#" aria-label="Facebook">f</a>
@@ -125,25 +191,25 @@
   <script src="js/script.js"></script>
   <script>
     const galleryData = [
-      { src:"https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=450&fit=crop", cat:"wedding", title:"Elegant Wedding", desc:"Beautiful mandap with floral decoration and lighting." },
-      { src:"https://images.unsplash.com/photo-1508154049037-1d2745a66ae6?w=600&h=450&fit=crop", cat:"stage", title:"Professional Stage", desc:"Stage setup with truss, backdrop and professional lighting." },
-      { src:"https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=450&fit=crop", cat:"corporate", title:"Corporate Conference", desc:"Full AV setup for corporate conferences and presentations." },
-      { src:"https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600&h=450&fit=crop", cat:"lighting", title:"Dynamic Lighting", desc:"Immersive lighting design for events and exhibitions." },
-      { src:"https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600&h=450&fit=crop", cat:"wedding", title:"Grand Reception", desc:"Complete wedding production with elegant decor." },
-      { src:"https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=600&h=450&fit=crop", cat:"lighting", title:"Concert Setup", desc:"Professional lighting and sound for live events." },
-      { src:"https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=600&h=450&fit=crop", cat:"outdoor", title:"Outdoor Event", desc:"Tent and furniture setup for outdoor gatherings." },
-      { src:"https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=600&h=450&fit=crop", cat:"lighting", title:"LED Lights", desc:"LED wall display with synchronized lighting." },
-      { src:"https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&h=450&fit=crop", cat:"wedding", title:"Wedding Setup", desc":"Elegant wedding reception with premium furniture." },
+      { src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=450&fit=crop", cat: "wedding", title: "Elegant Wedding", desc: "Beautiful mandap with floral decoration and lighting." },
+      { src: "https://images.unsplash.com/photo-1508154049037-1d2745a66ae6?w=600&h=450&fit=crop", cat: "stage", title: "Professional Stage", desc: "Stage setup with truss, backdrop and professional lighting." },
+      { src: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=450&fit=crop", cat: "corporate", title: "Corporate Conference", desc: "Full AV setup for corporate conferences and presentations." },
+      { src: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600&h=450&fit=crop", cat: "lighting", title: "Dynamic Lighting", desc: "Immersive lighting design for events and exhibitions." },
+      { src: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600&h=450&fit=crop", cat: "wedding", title: "Grand Reception", desc: "Complete wedding production with elegant decor." },
+      { src: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=600&h=450&fit=crop", cat: "lighting", title: "Concert Setup", desc: "Professional lighting and sound for live events." },
+      { src: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=600&h=450&fit=crop", cat: "outdoor", title: "Outdoor Event", desc: "Tent and furniture setup for outdoor gatherings." },
+      { src: "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=600&h=450&fit=crop", cat: "lighting", title: "LED Lights", desc: "LED wall display with synchronized lighting." },
+      { src: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&h=450&fit=crop", cat: "wedding", title: "Wedding Setup", desc: "Elegant wedding reception with premium furniture." },
     ];
 
-    const catMap = { all:"All", wedding:"Wedding", corporate:"Corporate", stage:"Stage", lighting:"Lighting", outdoor:"Outdoor" };
+    const catMap = { all: "All", wedding: "Wedding", corporate: "Corporate", stage: "Stage", lighting: "Lighting", outdoor: "Outdoor" };
     const filters = document.getElementById('galleryFilters');
     const grid = document.getElementById('galleryGrid');
     let lightboxImages = [];
 
-    Object.entries(catMap).forEach(([k,v]) => {
+    Object.entries(catMap).forEach(([k, v]) => {
       const b = document.createElement('button');
-      b.className = 'catalog-btn' + (k==='all'?' active':'');
+      b.className = 'catalog-btn' + (k === 'all' ? ' active' : '');
       b.textContent = v;
       b.onclick = () => renderGallery(k);
       filters.appendChild(b);
@@ -152,9 +218,9 @@
     function renderGallery(cat) {
       document.querySelectorAll('#galleryFilters .catalog-btn').forEach(b => b.classList.remove('active'));
       filters.children[Object.keys(catMap).indexOf(cat)].classList.add('active');
-      const items = cat==='all' ? galleryData : galleryData.filter(g => g.cat === cat);
+      const items = cat === 'all' ? galleryData : galleryData.filter(g => g.cat === cat);
       lightboxImages = [];
-      grid.innerHTML = items.map((img,i) => {
+      grid.innerHTML = items.map((img, i) => {
         lightboxImages.push({ src: img.src, alt: img.title });
         return `
           <div class="gallery-item" data-index="${i}">
@@ -184,4 +250,5 @@
     renderGallery('all');
   </script>
 </body>
+
 </html>
