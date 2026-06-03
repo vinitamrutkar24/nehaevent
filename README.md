@@ -34,8 +34,8 @@ https://nehaevent.in
 
 ## Repository
 
-https://github.com/vinitamrutkar24/nehaevent
+https://nehaevent.in
 
 ## Author
 
-Developed and maintained by Vinit Amrutkar.
+Developed and maintained by Neha Events.
