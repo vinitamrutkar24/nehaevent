@@ -226,7 +226,7 @@ export const EXHIBITIONS = {
   },
   premium: {
     title: "Premium Celebrity & Luxury Expos",
-    subtitle: "Dubai-style high-end luxury business & fashion networking hubs",
+    subtitle: "International-style high-end luxury business & fashion networking hubs",
     bgImage: "images/img_91962b58aa541c1fd6ceae76a5520439.jpg",
     theme: "from-gold/20 via-black to-luxury-black",
     features: [
@@ -257,7 +257,7 @@ export const UPCOMING_EXHIBITIONS = [
   },
   {
     id: 2,
-    name: "Dubai Luxury Fashion & Jewelry Expo",
+    name: "Elite Couture & Jewelry Luxury Expo 2026",
     tagline: "Celebrity Brand Launch & Networking Event",
     date: "2026-09-02T10:00:00", // Future date for countdown
     dateString: "Sept 02 - 04, 2026",
@@ -306,7 +306,7 @@ export const TESTIMONIALS = [
     role: "Founder, Rathi Lifestyle Jewellers",
     image: "images/img_vikram.jpg",
     rating: 5,
-    quote: "Booked stalls with Neha Events for their Luxury Brand Expo. The Dubai style gold rack setups, VIP lounge, and red carpet entrance pulled in high-spending customers. Recommended!"
+    quote: "Booked stalls with Neha Events for their Luxury Brand Expo. The premium gold rack setups, VIP lounge, and red carpet entrance pulled in high-spending customers. Recommended!"
   },
   {
     name: "Pooja Kulkarni",
