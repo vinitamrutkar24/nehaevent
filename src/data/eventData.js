@@ -210,7 +210,7 @@ export const PACKAGES = {
 export const EXHIBITIONS = {
   public: {
     title: "Public Shopping Exhibitions",
-    subtitle: "Inspired by flagship expos like 'Ghe Bharari Pune'",
+    subtitle: "Inspired by flagship regional shopping expos",
     bgImage: "images/img_dac56172e17979444da688260445f10a.jpg",
     theme: "from-amber-500/10 via-amber-600/5 to-transparent",
     features: [
@@ -245,7 +245,7 @@ export const EXHIBITIONS = {
 export const UPCOMING_EXHIBITIONS = [
   {
     id: 1,
-    name: "Ghe Bharari Pune Expo 2026",
+    name: "Pune Grand Utsav Shopping Expo 2026",
     tagline: "Celebrate Local Business & Women Entrepreneurs",
     date: "2026-07-15T09:00:00", // Future date for countdown
     dateString: "July 15 - 17, 2026",
@@ -310,7 +310,7 @@ export const TESTIMONIALS = [
   },
   {
     name: "Pooja Kulkarni",
-    role: "Founder, Ghe Bharari Pune Initiative",
+    role: "Founder, Pune Utsav Women's Initiative",
     image: "images/img_pooja.jpg",
     rating: 5,
     quote: "Partnered for our public shopping expo. They managed 80+ stalls, sound systems, and welcoming LED gates flawlessly. Their support team worked around the clock."
