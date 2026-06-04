@@ -5,84 +5,84 @@ export const SERVICES = [
     id: 'birthday',
     title: 'Birthday Event Planning',
     description: 'Transforming simple birthdays into grand theatrical celebrations. Custom cartoon themes, premium entry arches, and dazzling setups customized for all ages.',
-    image: '/images/img_31c389b1d4d23bf9f28eb43023e61d0a.jpg',
+    image: 'images/img_31c389b1d4d23bf9f28eb43023e61d0a.jpg',
     icon: 'Cake'
   },
   {
     id: 'baby-shower',
     title: 'Baby Shower Decoration',
     description: 'Elegant setups celebrating new beginnings. Luxury traditional or modern theme backdrops, premium jhula setups, and floral structures.',
-    image: '/images/img_5e2ef74d7000cfb10241a5aca2388902.jpg',
+    image: 'images/img_5e2ef74d7000cfb10241a5aca2388902.jpg',
     icon: 'Baby'
   },
   {
     id: 'naming-ceremony',
     title: 'Naming Ceremony Setup',
     description: 'Traditional and premium custom naming ceremony decors. Beautifully styled cradles, personalized baby name signage, and ethnic floral backdrops.',
-    image: '/images/img_6f1936137b1a105eb210f0a40fa10906.jpg',
+    image: 'images/img_6f1936137b1a105eb210f0a40fa10906.jpg',
     icon: 'Sparkles'
   },
   {
     id: 'balloon',
     title: 'Balloon Decoration',
     description: 'From elegant pastel ring balloon walls to grand welcoming entry balloon arches. High-end balloon architecture that adds magic to any venue.',
-    image: '/images/img_f437ba272e566366e190de7d16f832b2.jpg',
+    image: 'images/img_f437ba272e566366e190de7d16f832b2.jpg',
     icon: 'PartyPopper'
   },
   {
     id: 'led-screen',
     title: 'LED Screen Setup',
     description: 'State-of-the-art high-definition P3/P4 LED screens. Perfect for corporate events, celebrity exhibitions, wedding backdrops, and live feeds.',
-    image: '/images/img_30d22119cd56c904866a29a878b2c221.jpg',
+    image: 'images/img_30d22119cd56c904866a29a878b2c221.jpg',
     icon: 'Tv'
   },
   {
     id: 'sound-dj',
     title: 'Sound & DJ Setup',
     description: 'High-fidelity acoustic systems with wireless mics and dynamic lighting. Experience professional event audio managed by expert sound engineers.',
-    image: '/images/img_644ced8acc759d83178a083d029f1a6b.jpg',
+    image: 'images/img_644ced8acc759d83178a083d029f1a6b.jpg',
     icon: 'Music'
   },
   {
     id: 'photography',
     title: 'Photography & Videography',
     description: 'Capturing memories in cinematic high definition. Premium photography packages, short reels, drone shots, and full-coverage digital albums.',
-    image: '/images/img_d9666649d5bb07158b7bd0a1f72dda06.jpg',
+    image: 'images/img_d9666649d5bb07158b7bd0a1f72dda06.jpg',
     icon: 'Camera'
   },
   {
     id: 'stage',
     title: 'Stage Decoration',
     description: 'Grand royal stage backdrops with custom structural elements, premium velvet carpeting, and theatrical profile lighting.',
-    image: '/images/img_faae5897f623ae919c0a3632ac174616.jpg',
+    image: 'images/img_faae5897f623ae919c0a3632ac174616.jpg',
     icon: 'Crown'
   },
   {
     id: 'wedding',
     title: 'Wedding Decoration',
     description: 'Luxury destination wedding styling. Extravagant mandap setups, royal theme entries, floral aisles, and bespoke lighting arrangements.',
-    image: '/images/img_43b4c8347f3ce431e38bfa45f6f2d7a9.jpg',
+    image: 'images/img_43b4c8347f3ce431e38bfa45f6f2d7a9.jpg',
     icon: 'Heart'
   },
   {
     id: 'corporate',
     title: 'Corporate Events',
     description: 'Polished seminars, annual general meetings, product launches, and networking meetups. Professional venue and crowd flow management.',
-    image: '/images/img_eadb3b4f2e7bccb7541e95d8ccceee6a.jpg',
+    image: 'images/img_eadb3b4f2e7bccb7541e95d8ccceee6a.jpg',
     icon: 'Briefcase'
   },
   {
     id: 'exhibition-stall',
     title: 'Exhibition Stall Management',
     description: 'Custom shell schemes, Octonorm installations, display stands, gold racks, and queue managers. Optimize your product displays for maximum footfall.',
-    image: '/images/img_e6d429267f20e34a72157802fcf4e092.jpg',
+    image: 'images/img_e6d429267f20e34a72157802fcf4e092.jpg',
     icon: 'Grid'
   },
   {
     id: 'celebrity-brand',
     title: 'Celebrity Brand Events',
     description: 'Exclusive influencer collaborations, launch parties, celebrity-endorsed expos, red carpets, VIP lounge coordination, and heavy public footfall.',
-    image: '/images/img_8fef97f106025ebec1f4de38ccf11685.jpg',
+    image: 'images/img_8fef97f106025ebec1f4de38ccf11685.jpg',
     icon: 'Award'
   }
 ];
@@ -211,7 +211,7 @@ export const EXHIBITIONS = {
   public: {
     title: "Public Shopping Exhibitions",
     subtitle: "Inspired by flagship expos like 'Ghe Bharari Pune'",
-    bgImage: "/images/img_dac56172e17979444da688260445f10a.jpg",
+    bgImage: "images/img_dac56172e17979444da688260445f10a.jpg",
     theme: "from-amber-500/10 via-amber-600/5 to-transparent",
     features: [
       { name: "Affordable Stall Booking", desc: "Pricing designed for small and medium scale home businesses." },
@@ -227,7 +227,7 @@ export const EXHIBITIONS = {
   premium: {
     title: "Premium Celebrity & Luxury Expos",
     subtitle: "Dubai-style high-end luxury business & fashion networking hubs",
-    bgImage: "/images/img_91962b58aa541c1fd6ceae76a5520439.jpg",
+    bgImage: "images/img_91962b58aa541c1fd6ceae76a5520439.jpg",
     theme: "from-gold/20 via-black to-luxury-black",
     features: [
       { name: "Celebrity Brand Showcases", desc: "Stalls featuring products curated or owned by screen personalities." },
@@ -250,7 +250,7 @@ export const UPCOMING_EXHIBITIONS = [
     date: "2026-07-15T09:00:00", // Future date for countdown
     dateString: "July 15 - 17, 2026",
     venue: "Ganesh Kala Krida Manch, Swargate, Pune",
-    image: "/images/img_103d7fb4a115a9b60afed184174f5d64.jpg",
+    image: "images/img_103d7fb4a115a9b60afed184174f5d64.jpg",
     stallPricing: "₹8,000 - ₹15,000",
     vipPass: "Free Registration (General Entry) / VIP Pass at ₹499",
     category: "Public Shopping"
@@ -262,7 +262,7 @@ export const UPCOMING_EXHIBITIONS = [
     date: "2026-09-02T10:00:00", // Future date for countdown
     dateString: "Sept 02 - 04, 2026",
     venue: "The Westin Pune Koregaon Park, Grand Ballroom",
-    image: "/images/img_a1e4b50a223610967c8ad139cde74f96.jpg",
+    image: "images/img_a1e4b50a223610967c8ad139cde74f96.jpg",
     stallPricing: "₹25,000 - ₹50,000",
     vipPass: "VIP Access Pass at ₹1,999 (Includes Lounge Access & High Tea)",
     category: "Premium Luxury"
@@ -270,16 +270,16 @@ export const UPCOMING_EXHIBITIONS = [
 ];
 
 export const GALLERY = [
-  { src: "/images/img_5e2ef74d7000cfb10241a5aca2388902.jpg", cat: "wedding", title: "Luxury Wedding Mandap", desc: "Opulent white floral mandap with gold lighting accents." },
-  { src: "/images/img_9a821368f69d831130edb04df1e59f8f.jpg", cat: "exhibitions", title: "Luxury Brand Stall", desc: "Gold rack layouts showing premium lifestyle and jewelry designs." },
-  { src: "/images/img_6f1936137b1a105eb210f0a40fa10906.jpg", cat: "baby-shower", title: "Traditional Cradle (Jhula)", desc: "Exquisite flower canopy above a golden cradle for a naming ceremony." },
-  { src: "/images/img_f437ba272e566366e190de7d16f832b2.jpg", cat: "balloon", title: "Ring Balloon Design", desc: "Pastel colored ring backdrop with neon birthday text." },
-  { src: "/images/img_09ed9694b51c9cc3bf2f4ff9855befb4.jpg", cat: "exhibitions", title: "VIP Fashion Runway Lounge", desc: "Black and gold corporate sponsor walls with red carpets and velvet dividers." },
-  { src: "/images/img_faae5897f623ae919c0a3632ac174616.jpg", cat: "stage", title: "Celebrity Stage Setup", desc: "Truss structure stage with professional LED wall integrations." },
-  { src: "/images/img_43b4c8347f3ce431e38bfa45f6f2d7a9.jpg", cat: "wedding", title: "Royal Entry Aisle", desc: "Walkway decorated with tall floral arches and lit candles." },
-  { src: "/images/img_31c389b1d4d23bf9f28eb43023e61d0a.jpg", cat: "birthday", title: "Thematic Birthday Entry", desc: "Jungle theme entrance arch crafted with customized cartoon figures." },
-  { src: "/images/img_eadb3b4f2e7bccb7541e95d8ccceee6a.jpg", cat: "exhibitions", title: "Pune Public Expo", desc: "Vibrant shopping exhibition crowds browsing artisan stalls." },
-  { src: "/images/img_30d22119cd56c904866a29a878b2c221.jpg", cat: "led-stage", title: "HD LED Backdrop", desc: "Crisp LED display screen presenting animated graphics behind a presenter." }
+  { src: "images/img_5e2ef74d7000cfb10241a5aca2388902.jpg", cat: "wedding", title: "Luxury Wedding Mandap", desc: "Opulent white floral mandap with gold lighting accents." },
+  { src: "images/img_9a821368f69d831130edb04df1e59f8f.jpg", cat: "exhibitions", title: "Luxury Brand Stall", desc: "Gold rack layouts showing premium lifestyle and jewelry designs." },
+  { src: "images/img_6f1936137b1a105eb210f0a40fa10906.jpg", cat: "baby-shower", title: "Traditional Cradle (Jhula)", desc: "Exquisite flower canopy above a golden cradle for a naming ceremony." },
+  { src: "images/img_f437ba272e566366e190de7d16f832b2.jpg", cat: "balloon", title: "Ring Balloon Design", desc: "Pastel colored ring backdrop with neon birthday text." },
+  { src: "images/img_09ed9694b51c9cc3bf2f4ff9855befb4.jpg", cat: "exhibitions", title: "VIP Fashion Runway Lounge", desc: "Black and gold corporate sponsor walls with red carpets and velvet dividers." },
+  { src: "images/img_faae5897f623ae919c0a3632ac174616.jpg", cat: "stage", title: "Celebrity Stage Setup", desc: "Truss structure stage with professional LED wall integrations." },
+  { src: "images/img_43b4c8347f3ce431e38bfa45f6f2d7a9.jpg", cat: "wedding", title: "Royal Entry Aisle", desc: "Walkway decorated with tall floral arches and lit candles." },
+  { src: "images/img_31c389b1d4d23bf9f28eb43023e61d0a.jpg", cat: "birthday", title: "Thematic Birthday Entry", desc: "Jungle theme entrance arch crafted with customized cartoon figures." },
+  { src: "images/img_eadb3b4f2e7bccb7541e95d8ccceee6a.jpg", cat: "exhibitions", title: "Pune Public Expo", desc: "Vibrant shopping exhibition crowds browsing artisan stalls." },
+  { src: "images/img_30d22119cd56c904866a29a878b2c221.jpg", cat: "led-stage", title: "HD LED Backdrop", desc: "Crisp LED display screen presenting animated graphics behind a presenter." }
 ];
 
 export const WHY_CHOOSE_US = [
@@ -297,28 +297,28 @@ export const TESTIMONIALS = [
   {
     name: "Sneha Deshmukh",
     role: "Mother & Birthday Client",
-    image: "/images/img_sneha.jpg",
+    image: "images/img_sneha.jpg",
     rating: 5,
     quote: "The Birthday Ultra Package was phenomenal! The ring balloon design and LED welcome board made our daughter's birthday look like a dream. Highly professional team."
   },
   {
     name: "Vikram Rathi",
     role: "Founder, Rathi Lifestyle Jewellers",
-    image: "/images/img_vikram.jpg",
+    image: "images/img_vikram.jpg",
     rating: 5,
     quote: "Booked stalls with Neha Events for their Luxury Brand Expo. The Dubai style gold rack setups, VIP lounge, and red carpet entrance pulled in high-spending customers. Recommended!"
   },
   {
     name: "Pooja Kulkarni",
     role: "Founder, Ghe Bharari Pune Initiative",
-    image: "/images/img_pooja.jpg",
+    image: "images/img_pooja.jpg",
     rating: 5,
     quote: "Partnered for our public shopping expo. They managed 80+ stalls, sound systems, and welcoming LED gates flawlessly. Their support team worked around the clock."
   },
   {
     name: "Aditya & Nehal",
     role: "Wedding Clients",
-    image: "/images/img_aditya.jpg",
+    image: "images/img_aditya.jpg",
     rating: 5,
     quote: "Stunning stage decoration and mandap arrangement! The gold themes, artificial flowers, and profile lights created beautiful cinematic photos. Truly a premium experience."
   }
@@ -358,15 +358,15 @@ export const RENTAL_EQUIPMENT = {
 };
 
 export const RENTAL_UTILITIES = [
-  { name: "Lights", image: "/images/img_2a0a04c2e6e5e1790c8b66557cc35375.jpg", desc: "Professional spot lights, halogens, strip lights, and warm ambient profile stage illumination." },
-  { name: "Fans", image: "/images/img_fd07766dc840c60aba365b594e3c4cbd.jpg", desc: "High-power pedestal and industrial cooling fans to maintain comfortable stall temperatures." },
-  { name: "Speakers", image: "/images/img_b119fcba9d81f634ee3f02194b527ddf.jpg", desc: "Clear acoustic sound systems, perfect for stall announcements, ambient music, or product pitches." },
-  { name: "Wireless Mics", image: "/images/img_72f97b2ed609a97ea5063f946f139fea.jpg", desc: "High-fidelity wireless microphones for anchors, presentation stages, or audience engagements." },
-  { name: "Tables & Chairs", image: "/images/img_6b9437058c9d67986c9b4d253922a408.jpg", desc: "Premium plastic, wooden, or luxury velvet chairs and registration counters for stall hosts." },
-  { name: "Octonorm Stall Structures", image: "/images/img_0d4d6801bc23b7dd67f5b59da6d027f5.jpg", desc: "Standard aluminum partition walls and customizable configurations for indoor expos." },
-  { name: "Canopy Setup", image: "/images/img_405d57184c1e528fe5ae4a4ff07281b7.jpg", desc: "Waterproof canopy tents (10x10ft, 10x20ft) for outdoor public shopping bazaars." },
-  { name: "Carpeting", image: "/images/img_c1e3329f6e0b15a778b8987283f839f5.jpg", desc: "Velvet red, green, or black carpets to elevate stall aesthetics and walkway presentations." },
-  { name: "Queue Managers", image: "/images/img_08e7544f244a19708a3d20cba97594c1.jpg", desc: "Chrome stands with red velvet ropes to direct visitor flow and manage VIP entrances." }
+  { name: "Lights", image: "images/img_2a0a04c2e6e5e1790c8b66557cc35375.jpg", desc: "Professional spot lights, halogens, strip lights, and warm ambient profile stage illumination." },
+  { name: "Fans", image: "images/img_fd07766dc840c60aba365b594e3c4cbd.jpg", desc: "High-power pedestal and industrial cooling fans to maintain comfortable stall temperatures." },
+  { name: "Speakers", image: "images/img_b119fcba9d81f634ee3f02194b527ddf.jpg", desc: "Clear acoustic sound systems, perfect for stall announcements, ambient music, or product pitches." },
+  { name: "Wireless Mics", image: "images/img_72f97b2ed609a97ea5063f946f139fea.jpg", desc: "High-fidelity wireless microphones for anchors, presentation stages, or audience engagements." },
+  { name: "Tables & Chairs", image: "images/img_6b9437058c9d67986c9b4d253922a408.jpg", desc: "Premium plastic, wooden, or luxury velvet chairs and registration counters for stall hosts." },
+  { name: "Octonorm Stall Structures", image: "images/img_0d4d6801bc23b7dd67f5b59da6d027f5.jpg", desc: "Standard aluminum partition walls and customizable configurations for indoor expos." },
+  { name: "Canopy Setup", image: "images/img_405d57184c1e528fe5ae4a4ff07281b7.jpg", desc: "Waterproof canopy tents (10x10ft, 10x20ft) for outdoor public shopping bazaars." },
+  { name: "Carpeting", image: "images/img_c1e3329f6e0b15a778b8987283f839f5.jpg", desc: "Velvet red, green, or black carpets to elevate stall aesthetics and walkway presentations." },
+  { name: "Queue Managers", image: "images/img_08e7544f244a19708a3d20cba97594c1.jpg", desc: "Chrome stands with red velvet ropes to direct visitor flow and manage VIP entrances." }
 ];
 
 export const RENTAL_SERVICES = {

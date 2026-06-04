@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Instagram, Sparkles, Send, Check } from 'lucide-react';
 
 const INSTA_FEED = [
-  '/images/img_41608204fc76aefc774d998364301060.jpg',
-  '/images/img_fb8651f52961ae3aac220147820c62a5.jpg',
-  '/images/img_3c776983cfa8d682b3027658bf69be37.jpg',
-  '/images/img_3d11d4638991fa0a4b0561da2e352f53.jpg',
-  '/images/img_883d5077ebb6382400e67a7c5baabd43.jpg',
-  '/images/img_a41a740ffac3b4f6c40330b456ebe649.jpg'
+  'images/img_41608204fc76aefc774d998364301060.jpg',
+  'images/img_fb8651f52961ae3aac220147820c62a5.jpg',
+  'images/img_3c776983cfa8d682b3027658bf69be37.jpg',
+  'images/img_3d11d4638991fa0a4b0561da2e352f53.jpg',
+  'images/img_883d5077ebb6382400e67a7c5baabd43.jpg',
+  'images/img_a41a740ffac3b4f6c40330b456ebe649.jpg'
 ];
 
 export default function Footer() {

@@ -3,10 +3,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Calendar, Tag, ChevronDown, Sparkles } from 'lucide-react';
 
 const HERO_IMAGES = [
-  '/images/img_0afeaeb52834530210d2551e77069a56.jpg', // Wedding
-  '/images/img_3e3a782881d6e004d12c9cdd87cc9434.jpg', // Exhibition Stage
-  '/images/img_04ed5250ab47ddce71660d90be59929b.jpg', // Luxury Brand Stall
-  '/images/img_3201b74e46150d1924ac23f04e8055e6.jpg'  // Luxury Stage Setup
+  'images/img_0afeaeb52834530210d2551e77069a56.jpg', // Wedding
+  'images/img_3e3a782881d6e004d12c9cdd87cc9434.jpg', // Exhibition Stage
+  'images/img_04ed5250ab47ddce71660d90be59929b.jpg', // Luxury Brand Stall
+  'images/img_3201b74e46150d1924ac23f04e8055e6.jpg'  // Luxury Stage Setup
 ];
 
 export default function Hero() {

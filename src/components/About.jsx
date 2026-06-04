@@ -63,7 +63,7 @@ export default function About() {
           <div className="lg:col-span-5 relative">
             <div className="relative z-10 rounded-2xl overflow-hidden border border-gold/25 shadow-2xl group">
               <img
-                src="/images/img_0eb2023ed84dea81758f383e403b092a.jpg"
+                src="images/img_0eb2023ed84dea81758f383e403b092a.jpg"
                 alt="Luxury Event Setup"
                 className="w-full h-[450px] object-cover group-hover:scale-105 transition-transform duration-700"
               />
